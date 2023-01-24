@@ -9,4 +9,12 @@ body {
 
     overflow-x: hidden;
 
+
+}
+
+@media only screen and (max-width: 570px){
+    body {
+        background-size: 1000px;
+        background-repeat: repeat;
+    }
 }

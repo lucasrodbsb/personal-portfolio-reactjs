@@ -14,7 +14,7 @@ export const Title = styled.h1`
         margin-bottom: 40px;
 
         @media (max-width: 676px) {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
     `;
 
@@ -43,9 +43,14 @@ export const BioTxt = styled.p`
         
 
         @media (max-width: 676px) {
-            text-align: left;
+            text-align: center;
             font-size:25px;
-            line-height: 40px;
+            line-height: 38px;
+        }
+
+        @media (max-width: 480px) {     
+            font-size:20px;
+            line-height: 28px;
         }
     `;
 
@@ -250,7 +255,7 @@ export const Copyright = styled.p`
     text-align: center;
     font-weight: 100;
     margin-top: ${props => props.marginTop};
-    font-weight: 999;
+    font-weight: 100;
 
 `;
 
