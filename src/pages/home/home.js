@@ -38,7 +38,7 @@ const Home = () => {
         words: ["Front-End Developer!", "UI/UX Designer!", "Web Developer!", "Tech Lover!", ],
         loop: 0, // Infinit
         typeSpeed: 100,
-        delaySpeed: 5000
+        delaySpeed: 3000
       });
 
     return (
@@ -55,7 +55,7 @@ const Home = () => {
                             <a href="https://wa.me/5561982789687" target="_blank" title="Whatsapp" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
                             <a href="https://instagram.com/gh0st_l?igshid=YmMyMTA2M2Y=" target="_blank" title="Instagram" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                             <a href="https://github.com/lucasrodbsb" target="_blank" title="Github" rel="noreferrer"><i className="fab fa-github"></i></a>
-                            <a href="" onClick={onButtonClick} title="Curriculum" rel="noreferrer"><i className="fa fa-file"></i></a>
+                            <a className='curriculo' href="" onClick={onButtonClick} title="Curriculum" rel="noreferrer"><i className="fa fa-file"></i></a>
                         </div>
                     </div>
                 </div>
