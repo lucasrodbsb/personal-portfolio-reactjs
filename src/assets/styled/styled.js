@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import fotoLucas from '../../assets/lucasFoto.png'
+import fotoLucas from '../../assets/lucasFoto.png';
+import '../../css/fonts.css';
 
 
 export const Title = styled.h1`
