@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Title, Logo, TechsContainer} from '../../assets/styled/styled';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 
 
 import logoReact from '../../assets/imagensLogos/react.png';
@@ -20,7 +20,7 @@ import { i18n } from '../../translate/i18n';
 const Techs = () => {
 
     return(
-        <Slide right>
+        <Slide triggerOnce>
         <Container flexDirection="column">
             <Title color='#fff'>{i18n.t('techs.title')}</Title>
             <TechsContainer>

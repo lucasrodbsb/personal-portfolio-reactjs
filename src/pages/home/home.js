@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Tilt from 'react-parallax-tilt';
 import { useTypewriter, Cursor} from 'react-simple-typewriter';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 
 import curriculo from '../../assets/Curriculo_Lucas_R.pdf';
 
@@ -43,7 +43,7 @@ const Home = () => {
 
     return (
         <main>
-            <Slide top>
+            <Slide triggerOnce>
             <section className="thumb">
                 <div className="content-thumb">
                     <Tilt tiltReverse="true" scale="1.1" id="foto" className="image-thumb"></Tilt>

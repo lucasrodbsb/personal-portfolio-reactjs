@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Title, BioTxt, Infos, Pic} from '../../assets/styled/styled';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 
 import { i18n } from '../../translate/i18n';
 
@@ -8,7 +8,7 @@ import { i18n } from '../../translate/i18n';
 
 const AboutMe = () => {
     return (
-        <Slide left>
+        <Slide triggerOnce>
         <Container bgcolor='' flexDirection="column">
             
             <Title color='#fff'>{i18n.t('aboutme.title')}</Title>

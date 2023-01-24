@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Title, ContactForm } from '../../assets/styled/styled';
-import Slide from 'react-reveal/Slide';
+import Slide from 'react-awesome-reveal';
 import emailjs from '@emailjs/browser';
 
 import { i18n } from '../../translate/i18n';
@@ -39,7 +39,7 @@ const Contact = () => {
     };
 
     return (
-        <Slide right>
+        <Slide triggerOnce>
             <Container bgcolor='' flexDirection="column">
 
                 <Title color='#fff'>{i18n.t('contact.title')}</Title>
