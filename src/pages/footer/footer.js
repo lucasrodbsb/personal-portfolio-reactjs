@@ -8,8 +8,8 @@ const Footer = () => {
         <Slide triggerOnce>
         <ContainerCopyright>
             <Container flexDirection="column">
+            <LangSelect/>
                 <Copyright color='#fff'>Copyright © 2023 Lucas Rodrigues</Copyright>
-                <LangSelect/>
             </Container>
         </ContainerCopyright>
         </Slide>
